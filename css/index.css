@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+/* 第一屏 */
+.section1 {
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    width: 85px;
+    height: 67px;
+}
+.enter img {
+    position: absolute;
+    top: 16px;
+    right: 40px;
+    width: 95px;
+    height: 28px;
+}
+.age img {
+    position: absolute;
+    left: 25px;
+    bottom: 23px;
+    width: 52px;
+    height: 66px;
+}
+.title1 img {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 510px;
+    height: 178px;
+}
+.play img {
+    position: absolute;
+    top: 72%;
+    left: 69%;
+    width: 53px;
+    height: 53px;
+}
+.pcdownload img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 212px;
+    height: 72px;
+}
+.section1 .mask1,
+.section1 .mask2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    display: none;
+}
+.section3 .mask-figure1,
+.section3 .mask-figure2,
+.section3 .mask-figure3,
+.section3 .mask-figure4 {
+    position: relative;
+    top: -21px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    display: none;
+}
+.section1 video,
+.section3 .mask-figure1 video,
+.section3 .mask-figure2 video,
+.section3 .mask-figure3 video,
+.section3 .mask-figure4 video {
+    position: absolute;
+    top: 142px;
+    left: 370px;
+    z-index: 99;
+    width: 543px;
+    height: 305px;
+    border: none;
+}
+.section1 .mask2 .agetip {
+    position: absolute;
+    top: 142px;
+    left: 418px;
+    width: 461px;
+    height: 347px;
+    background: url(../images/agetip.jpg) no-repeat center center;
+    background-size: cover;
+}
+.section1 .mask2 span img {
+    position: absolute;
+    top: 141px;
+    right: 370px;
+    width: 31px;
+    height: 31px;
+}
+.section5 .mask3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+}
+.section5 .mask3 .wechat3 {
+    position: absolute;
+    top: 170px;
+    left: 460px;
+    width: 352px;
+    height: 244px;
+    background: url(../images/wechat3.png) no-repeat center center;
+    background-size: cover;
+}
+.wechat3 .erweima {
+    position: absolute;
+    left: 111px;
+    top: 109px;
+    width: 117px;
+    height: 117px;
+}
+.wechat3 .wechat-logo {
+    position: absolute;
+    top: -63px;
+    left: 3px;
+    width: 347px;
+    height: 159px;
+}
+.wechat3 p {
+    position: absolute;
+    bottom: -26px;
+    left: 111px;
+    color: #fff;
+    font-size: 16px;
+}
+/* 第二屏 */
+.section2 {
+    position: relative;
+}
+.activity img {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 325px;
+    height: 66px;
+}
+.content {
+    position: absolute;
+    left: 340px;
+    top: 100px;
+}
+.content img {
+    width: 286px;
+    height: 410px;
+    margin-right: 28px;
+}
+/* 第三屏 */
+.figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.figure img:nth-child(1) {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 481px;
+    height: 557px;
+}
+.figure2 img:nth-child(1) {
+    width: 785px;
+    height: 591px;
+}
+.figure3 img:nth-child(1) {
+    width: 665px;
+    height: 586px;
+}
+.figure4 img:nth-child(1) {
+    width: 600px;
+    height: 586px;
+    position: absolute;
+    left: 39%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.figure img:nth-child(2) {
+    position: absolute;
+    width: 85px;
+    height: 93px;
+    top: 164px;
+    left: 365px;
+}
+.figure2 img:nth-child(2) {
+    top: 147px;
+    left: 275px;
+}
+.figure3 img:nth-child(2) {
+    top: 147px;
+    left: 294px;
+}
+.figure4 img:nth-child(2) {
+    top: 181px;
+    left: 318px;
+}
+.figure a {
+    display: inline-block;
+}
+.figure .player img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 179px;
+    left: 374px;
+}
+.figure2 .player img {
+    top: 160px;
+    left: 264px;
+}
+.figure3 .player img {
+    top: 163px;
+    left: 319px;
+}
+.figure4 .player img {
+    top: 188px;
+    left: 327px;
+}
+.figure img:nth-child(4) {
+    position: absolute;
+    width: 130px;
+    height: 68px;
+    top: 118px;
+    right: 300px;
+}
+.figure img:nth-child(5) {
+    position: absolute;
+    width: 297px;
+    height: 12px;
+    top: 206px;
+    right: 215px;
+}
+.figure .zcv {
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    top: 237px;
+    right: 224px;
+}
+.figure .zcv img {
+    width: 100%;
+    height: 100%;
+}
+.figure .jcv {
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    top: 288px;
+    right: 224px;
+}
+.figure .jcv img {
+    width: 100%;
+    height: 100%;
+}
+.figure4 .zcv {
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    top: 237px;
+    right: 208px;
+}
+.figure4 .zcv img {
+    width: 100%;
+    height: 100%;
+}
+.figure4 .jcv {
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    top: 288px;
+    right: 208px;
+}
+.figure4 .jcv img {
+    width: 100%;
+    height: 100%;
+}
+.section3 {
+    position: relative;
+}
+.section3 ul {
+    position: absolute;
+    z-index: 99;
+    top: 341px;
+    right: 214px;
+    width: 315px;
+    display: flex;
+}
+.section3 ul li {
+    flex: 1;
+    display: flex;
+}
+.section3 ul li a {
+    display: inline-block;
+    flex: 1;
+    width: 82px;
+    height: 88px;
+    cursor: pointer;
+
+}
+.section3 ul li a img {
+    width: 100%;
+    height: 100%;
+}
+/* tab栏切换 */
+.figure2, .figure3, .figure4 {
+    display: none;
+}
+/* section4 轮播图 */
+.swiper-container {
+    position: relative;
+    width: 630px;
+    height: 453px;
+    margin-top: 77px!important;
+  }
+.swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: url(../upload/section4-bg2.jpg) no-repeat center center;
+    background-size: contain;
+    /* Center slide text vertically */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide::after {
+      position: absolute;
+      width: 647px;
+      height: 462px;
+      z-index: 99;
+      top: -2px;
+      left: -7px;
+      content: "";
+      background: url(../upload/section4-bg.png) no-repeat center center;
+      background-size: cover;
+
+  }
+  .swiper-slide img {
+    width: 624px;
+    height: 374px;
+    margin-top: 10px;
+  }
+  .swiper-slide p {
+      font-size: 12px;
+      color: #555D7E;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+      width: 54px!important;
+      background-image: url(../upload/right.png)!important;
+      background-size: 71px 71px!important;
+      right: 269px!important;
+      top: 55%!important;
+  }
+  .swiper-button-prev {
+      background-image: url(../upload/left.png)!important;
+      left: 269px!important;
+  }
+  .version-ac img {
+      position: absolute;
+      width: 364px;
+      height: 74px;
+      left: 50%;
+      top: 21px;
+      transform: translateX(-50%);
+  }
+  /* section5 */
+  .section5 {
+      position: relative;
+  }
+  .feature {
+      position: absolute;
+      top: 21px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 364px;
+      height: 71px;
+  }
+  .feature img {
+      width: 100%;
+      height: 100%;
+  }
+  .btns .leftbtn,
+  .btns .rightbtn {
+      width: 71px;
+      height: 71px;
+  }
+  .btns .leftbtn img,
+  .btns .rightbtn img {
+      width: 100%;
+      height: 100%;
+  }
+  .link {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      width: 424px;
+      height: 86px;
+  }
+  .link a {
+      flex: 1;
+      margin-right: 9px;
+  }
+  .link a img {
+      width: 100%;
+      height: 100%;
+  }
+  /* section1-6 */
+  .section1 {
+    background: url(../upload/bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section2 {
+    background: url(../upload/bg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section3 {
+    background: url(../upload/bg3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section4 {
+    background: url(../upload/bg4.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section5 {
+    background: url(../upload/bg5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* 最后一屏显示100px高度 */
+.footer {
+    padding: 80px 0 !important;
+    padding-bottom: 5px!important;
+}
+
+.foot-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.footer-logo {
+    width: 300px;
+    height: 100%;
+    display: flex;
+
+}
+.footer-logo h1 {
+    line-height: 200px;
+    margin-left: 10px;
+}
+.footer-logo h2 {
+    line-height: 250px;
+}
+.footer-logo h1,
+.footer-logo h2 {
+    flex: 1;
+}
+
+.footer-logo h1 img {
+    margin-top: 27px;
+    width: 120px;
+    height: 42px;
+}
+
+.footer-logo span {
+    width: 2px;
+    height: 28px;
+    background: #666;
+    margin-top: 77px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.footer-logo h2 img {
+    margin-top: 10px;
+    width: 110px;
+    height: 80px;
+}
+
+.footer-info {
+    position: relative;
+    flex: 1;
+    font-size: 14px;
+    margin-left: 57px;
+    color: #fff;
+}
+
+.footer-info .mess {
+    margin: -47px 0 29px 0;
+}
+
+.footer-info .mess a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info p {
+    color: #aaa;
+    line-height: 24px;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    position: absolute;
+    top: 174px;
+    width: 527px;
+    display: flex;
+    padding: 10px;
+    margin-left: -9px;
+    text-align: center;
+}
+
+.footer-icon a {
+    flex: 1;
+    margin-right: 11px;
+}

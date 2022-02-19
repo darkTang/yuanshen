@@ -1,0 +1,131 @@
+html,
+body,
+ul,
+ol,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+body{background-color: #151515}
+.swiper {
+    width: 1200px;
+    height: 380px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.swiper .pic {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper .pic li {
+    transition: all 0.3s;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left: 58%;
+    margin-left: -350px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.swiper .pic li img {
+    width: 100%;
+    height: 100%;
+}
+
+.now {
+    z-index: 9;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.next {
+    z-index: 6;
+    transform: translateX(100px);
+}
+
+.prev {
+    z-index: 6;
+    transform: translateX(-100px);
+}
+
+._bg {
+    background-color: #fff !important;
+}
+
+.swiper .cricle {
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.swiper .cricle li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: #cccccc;
+    margin-right: 6px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper .btns {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 38px;
+    z-index: 9;
+}
+
+.swiper .btns .leftbtn,
+.swiper .btns .rightbtn {
+    width: 71px;
+    height: 71px;
+}
+
+.swiper .btns .leftbtn::after {
+    -webkit-transform: translate(12px, 8px) rotate(-45deg);
+    -moz-transform: translate(12px, 8px) rotate(-45deg);
+    -o-transform: translate(12px, 8px) rotate(-45deg);
+    -ms-transform: translate(12px, 8px) rotate(-45deg);
+    transform: translate(12px, 8px) rotate(-45deg);
+}
+
+.swiper .btns .rightbtn::after {
+    -webkit-transform: translate(4px, 8px) rotate(135deg);
+    -moz-transform: translate(4px, 8px) rotate(135deg);
+    -o-transform: translate(4px, 8px) rotate(135deg);
+    -ms-transform: translate(4px, 8px) rotate(135deg);
+    transform: translate(4px, 8px) rotate(135deg);
+}

@@ -1,0 +1,9 @@
+# 忽略文件夹
+插件/
+bootstrap/
+video/
+# 忽略所有的 .ico文件
+*.ico
+*.txt
+/测试.html
+
